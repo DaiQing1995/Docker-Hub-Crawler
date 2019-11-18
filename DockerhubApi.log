@@ -1,0 +1,9 @@
+# Using api to access docker hub data, json format returned
+
+1. Use image_filter to find official image,page_size can be used to control the results from this api.
+Api example: https://hub.docker.com/api/content/v1/products/search?image_filter=official&page_size=160&qi
+
+2. Use image name to get full data
+https://hub.docker.com/v2/repositories/library/couchbase/
+
+3. Use image HASH code to get full data
