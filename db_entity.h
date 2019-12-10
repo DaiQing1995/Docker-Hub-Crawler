@@ -1,4 +1,5 @@
 #include <mysql/mysql.h>
+#include <cspider/cJSON.h>
 
 typedef struct container_info{
     char* id;
@@ -25,3 +26,9 @@ MYSQL * build_connection(MYSQL *con, const char *host, const char *user, const c
 MYSQL_RES * get_query_result(MYSQL *con, const char *query);
 
 int insert_container_info(MYSQL* con, container_info *ctn_info);
+
+void init_ctn_data(container_info *ctn_data);
+
+void free_ctn_data(container_info *ctn_data);
+
+void json2ctn(container_info *ctn_data, cJSON *data);

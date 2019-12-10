@@ -7,3 +7,15 @@ Api example: https://hub.docker.com/api/content/v1/products/search?image_filter=
 https://hub.docker.com/v2/repositories/library/couchbase/
 
 3. Use image HASH code to get full data
+
+4. use name to get data of a specific image
+https://hub.docker.com/v2/repositories/influxdata-influxdb/
+
+
+
+# database note
+
+1. source:
+    library: offcial image
+    publisher: published by company
+    invalid: may be something wrong

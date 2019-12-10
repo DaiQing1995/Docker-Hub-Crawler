@@ -9,8 +9,8 @@ int main() {
 
    char *server = "localhost";
    char *user = "root";
-   char *password = "PASSWORD"; /* set me first */
-   char *database = "mysql";
+   char *password = "daiqing123"; /* set me first */
+   char *database = "dockerhub_info";
 
    conn = mysql_init(NULL);
 
